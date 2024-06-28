@@ -1,5 +1,6 @@
 using namespace std;
 #include <iostream>
+#include <cstdio>
 #include <string.h>
 
 int main()
@@ -11,7 +12,7 @@ int main()
         for(int j=0; j<3; j++)
         {
             if(j!=2)
-                cin >> a[i][j];
+                scanf("%d,", &a[i][j]);
             else
                 cin >> a[i][j];
             if(a[i][j]>m3)
